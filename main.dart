@@ -15,21 +15,6 @@ void main() {
 
   print("okey is : " + bag.get(indicator.getId() + 1).toString());
   bag.setOkey(indicator);
-/*
-  hands.add(Hand([
-    Piece(0),
-    Piece(25),
-    Piece(12),
-    Piece(11),
-    Piece(12),
-    Piece(11),
-    Piece(13),
-    Piece(26),
-    Piece(0),
-    Piece(1)
-  ]));
-
-  print(hands);*/
 
   // then distribute pieces to hands and hand constructors do the arrangements in each of them
   for (int k = 0; k < 4; k++) {
